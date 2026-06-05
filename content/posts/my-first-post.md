@@ -9,3 +9,5 @@ title = 'hxia First Post'
 
 访问 [Hugo](https://gohugo.io) 网站！
 
+测试是否可以自动更新
+
