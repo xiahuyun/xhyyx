@@ -1,0 +1,184 @@
+/* 设置一些自定义的样式 */
+:root {
+  --link-color: #a8e6cf;
+}
+
+.dark {
+  /* 首页的介绍处的链接 */
+  .entry-content {
+    a {
+      color: var(--link-color);
+    }
+  }
+  /* 文章(post)中的链接 */
+  .post-content {
+    a {
+      color: var(--link-color);
+    }
+  }
+
+  /* 这里要重启 server 才能看到效果 */
+  .pagination a {
+    background: rgb(168, 168, 242);
+  }
+}
+
+.entry-header {
+  margin-bottom: 1rem;
+}
+
+.pagination a {
+  background: rgb(80, 104, 81);
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  word-break: break-word;
+}
+
+.post-content pre,
+code {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.toc details[open] summary {
+  cursor: pointer;
+}
+
+.toc details summary {
+  cursor: pointer;
+}
+
+/* 评论的样式自定义 */
+#tw-comment {
+  margin-top: 3rem;
+}
+
+/* medium-zoom 图片放大后的背景样式 */
+.medium-zoom-overlay {
+  background: rgba(255, 255, 255, 0.5) !important;
+}
+.dark {
+  .medium-zoom-overlay {
+    background: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+
+.win11 {
+  .medium-zoom-image {
+    cursor: url(../../static/cursors/zoom-in.svg), default !important;
+  }
+  .medium-zoom--opened .medium-zoom-overlay {
+    cursor: url(../../static/cursors/zoom-out.svg), default !important;
+  }
+  .medium-zoom-image--opened {
+    cursor: url(../../static/cursors/zoom-out.svg), default !important;
+  }
+}
+
+/* 去掉文章页面底部的上一页和下一页中链接文字的下划线，这东西浏览器审查元素捕捉不到，不知道为啥 */
+.paginav span:hover:not(.title) {
+  box-shadow: none;
+}
+/* 下一页的那里的内边距调节 */
+.paginav {
+  a {
+    padding-bottom: 0.5em;
+  }
+}
+
+/* Home Info Layout Styles */
+.home-info-main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 100%;
+}
+
+.home-info-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.home-info-avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.home-info-avatar-container::after {
+    content: '';
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 60px;
+    background-color: #e5e5e5;
+}
+
+.home-info-text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.home-info-avatar-img {
+    border-radius: 50% !important;
+    border: 2px solid #f0f0f0;
+    transition: transform 0.2s ease;
+}
+
+.home-info-avatar-img:hover {
+    transform: scale(1.02);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .home-info-content-wrapper {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .home-info-text-content {
+        margin-top: 0;
+    }
+    
+    /* 移动端隐藏分隔线 */
+    .home-info-avatar-container::after {
+        display: none;
+    }
+    
+    /* 移动端社交图标居中 */
+    .home-info .entry-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* 图标悬浮高亮 */
+.social-icons svg:hover {
+    transition: 0.15s;
+}
+
+.social-icons a[href*='mailto']:hover svg {
+    color: #ea4335 !important;
+}
+
+.social-icons a[href*='github']:hover svg {
+    color: #7c3aed !important;
+}
+
+.social-icons a[href*='index.xml']:hover svg {
+    color: #ff6600 !important;
+}
