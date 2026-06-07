@@ -65,7 +65,7 @@ params:
   author: xhyyx
   defaultTheme: dark
   ShowShareButtons: false
-  ShowReadingTime: true
+  ShowReadingTime: false
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: false

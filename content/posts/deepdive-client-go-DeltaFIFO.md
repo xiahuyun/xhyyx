@@ -3,7 +3,6 @@ title = 'client-go DeltaFIFO 精讲'
 date = 2024-08-21T23:56:38+08:00
 categories = ["client-go"]
 tags = ["client-go", "kubernetes"]
-summary = 'client-go DeltaFIFO'
 author = 'xhy'
 +++
 
