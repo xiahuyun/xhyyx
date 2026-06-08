@@ -87,7 +87,7 @@ params:
     - name: github
       title: Follow my Github
       url: "https://github.com/xiahuyun"
-    - name: cnblogs
+    - name: rss
       title: Follow my Blog
       url: "https://www.cnblogs.com/xingzheanan"
     - name: wechat
