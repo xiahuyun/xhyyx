@@ -50,7 +50,7 @@ languages:
 
 pagination:
   disableAliases: false
-  pagerSize: 3
+  pagerSize: 8
 
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Features#search-page
 outputs:
