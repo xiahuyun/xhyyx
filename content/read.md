@@ -4,9 +4,9 @@ layout: "read"
 url: "/read/"
 summary: read
 ---
-# 书籍
+## 书籍
 
-## 2026
+### 2026
 
 **[《目光》](https://book.douban.com/subject/35223102)** ，*2026-04-27*
 
@@ -16,9 +16,9 @@ summary: read
 
 讲的是季羡林先生回忆文化大革命受迫害的岁月，书中用了破鞋等词语，有人说是带着情绪发泄的书，我看不出来太多，如果是我的话估计情绪要大的多...
 
-# 文章
+## 文章
 
-## 2026
+### 2026
 
 **[Strong consistency models 学习笔记](/strong-consistency-models-note/)**，*2026-06-14*
 

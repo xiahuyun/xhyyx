@@ -1,6 +1,6 @@
 +++
 title = 'Strong consistency models 学习笔记'
-date = 2024-06-14T15:22:38+08:00
+date = 2026-06-14T15:22:38+08:00
 categories = ["consistency-models"]
 tags = ["consistency-models"]
 author = 'xhy'
