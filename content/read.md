@@ -20,7 +20,7 @@ summary: read
 
 ### 2026
 
-**[Strong consistency models 学习笔记](/strong-consistency-models-note/)**，*2026-06-14*
+**[Strong consistency models 学习笔记](https://aphyr.com/posts/313-strong-consistency-models)**，*2026-06-14*
 
-文章含金量很足，足到要写个笔记记录下。笔记在 [这里](/strong-consistency-models-note/)，脑细胞碎了一地。
+文章含金量很足，足到要写个笔记记录下。笔记在 [这里]({{< ref "posts/strong-consistency-models-note.md" >}})，脑细胞碎了一地。
 
