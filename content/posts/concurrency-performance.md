@@ -1,7 +1,7 @@
 +++
 title = '并发性能优化复盘'
 date = 2026-06-18T11:40:38+08:00
-categories = ["go"]
+categories = ["go", "concurrency"]
 tags = ["go", "concurrency", "performance"]
 author = 'xhy'
 +++
