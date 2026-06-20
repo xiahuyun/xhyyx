@@ -16,6 +16,10 @@ summary: read
 
 讲的是季羡林先生回忆文化大革命受迫害的岁月，书中用了破鞋等词语，有人说是带着情绪发泄的书，我看不出来太多，如果是我的话估计情绪要大的多...
 
+**[《Concurrency in Go》](https://www.kancloud.cn/mutouzhang/go/596804)** ，*2026-06-20*
+
+讲的是并发编程的实践，内容还是不错的，写了一篇简短的笔记，笔记在 [这里]({{< ref "posts/concurrency-in-go-notes.md" >}})
+
 ## 文章
 
 ### 2026
