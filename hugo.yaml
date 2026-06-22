@@ -63,7 +63,7 @@ params:
   env: production
   description: "Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod"
   author: xhyyx
-  defaultTheme: dark
+  defaultTheme: light
   ShowShareButtons: false
   ShowReadingTime: false
   displayFullLangName: true
