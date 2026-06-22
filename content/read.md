@@ -30,6 +30,8 @@ summary: read
 
 ## 论文
 
+### 2026
+
 **[In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)**，*xhy, 2026-06-22* 
 
 raft 的经典必读论文，没啥好说的。
