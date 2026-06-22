@@ -480,26 +480,7 @@ func (r *raftNode) start(rh *raftReadyHandler) {
 
 etcd 线性读流程示意图如下：
 
-```mermaid
-sequenceDiagram
-    participant C as Client
-    participant F as Follower
-    participant L as Leader
-
-    C->>F: Range Request
-
-    F->>L: MsgReadIndex
-
-    L->>L: Confirm Leadership
-    L-->>F: ReadIndexResp(index=100)
-
-    F->>F: applyWait.Wait(100)
-    F->>F: wait applyIndex >= 100
-
-    F->>F: MVCC Read
-
-    F-->>C: Response
-```
+![线性一致性读示意图](/images/readindex.png)
 
 etcd 线性读的核心思想可以概括为三步：
 
