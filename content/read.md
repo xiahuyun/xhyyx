@@ -28,3 +28,9 @@ summary: read
 
 文章含金量很足，足到要写个笔记记录下。笔记在 [这里]({{< ref "posts/strong-consistency-models-note.md" >}})，脑细胞碎了一地。
 
+## 论文
+
+**[In Search of an Understandable Consensus Algorithm](https://raft.github.io/raft.pdf)**，*2026-06-22* 
+
+raft 的经典必读论文，没啥好说的。
+
