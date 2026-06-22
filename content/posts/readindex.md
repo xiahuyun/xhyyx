@@ -476,7 +476,7 @@ func (r *raftNode) start(rh *raftReadyHandler) {
 
 `requestCurrentIndex` 会监听该通道并处理，后面的逻辑就不复杂了，篇幅有限就不介绍了。
 
-### 小结
+## 小结
 
 etcd 线性读流程示意图如下：
 
