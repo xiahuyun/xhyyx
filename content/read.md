@@ -36,3 +36,5 @@ summary: read
 
 raft 的经典必读论文，没啥好说的。
 
+**[Hepatic factor MANF drives hepatocytes reprogramming by detaining cytosolic CK19 in intrahepatic cholangiocarcinoma 学习笔记](https://www.nature.com/articles/s41591-026-0123-0)**，*yx, 2026-06-22*
+
