@@ -12,7 +12,7 @@ author = 'yx'
 
 中脑星形胶质细胞源性神经营养因子（MANF）是一种内质网（ER）应激诱导蛋白，最初被鉴定为神经营养因子新家族的成员，并在帕金森病、阿尔茨海默病、脑缺血和糖尿病中发挥细胞保护作用。研究表明，MANF可保护缺血或药物诱导的肝损伤，并通过负调控TLR4/NF-κB信号通路抑制外周炎症。MANF在肝细胞癌（HCC）中表达下调并抑制HCC进展，而在另一种原发性肝癌——ICC中则表达上调。然而，MANF 在 ICC中是否发挥促癌作用，以及MANF在成熟肝细胞转分化中的行为尚不清楚。
 
-*样本来源：* 作者收集了78例单纯性ICC患者的石蜡切片、6例患者的冷冻样本（其中4例同时含有ICC和HCC组织），以及23例ICC患者和25例健康个体的血清。
+*样本来源：* 作者收集了78例单纯性ICC患者的石蜡切片、6例患者的冷冻样本（其中4例同时含有ICC和HCC组织），以及23例ICC患者和25例健康个体的血清。  
 分别使用免疫组化，WB，qPCR检测了癌与癌旁的MANF的表达水平，结果均显示ICC表达水平高。ELISA检测了健康者与ICC患者的血清中MANF的表达水平，ICC患者的表达水平高于健康者。作者也在公共数据库中进行了验证，生存曲线分析MANF的表达水平高预示着愈后不良，这些临床特征表明MANF是ICC诊断的预测性生物标志物。
 
 ![paper1](/images/yx/Hepatic-factor-MANF-drives-hepatocytes-reprogramming-by-detaining-cytosolic-CK19-in-intrahepatic-cholangiocarcinoma/paper1.png)

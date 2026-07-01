@@ -20,6 +20,10 @@ summary: read
 
 讲的是并发编程的实践，内容还是不错的，写了一篇简短的笔记，笔记在 [这里]({{< ref "posts/concurrency-in-go-notes.md" >}})
 
+**[凤凰项目·一个IT运维的传奇故事](https://book.douban.com/subject/26644070/)** ，*xhy, 2026-07-01*
+
+可以说是 IT 必读书目之一了，内容很厚，作者大佬们用IT运维的故事来写小说，读起来很有意思，跌宕起伏。结合自己工作经历写了一个简短的笔记。({{< ref "posts/phoenix-project-notes.md" >}})
+
 ## 文章
 
 ### 2026
@@ -37,4 +41,6 @@ summary: read
 raft 的经典必读论文，没啥好说的。
 
 **[Hepatic factor MANF drives hepatocytes reprogramming by detaining cytosolic CK19 in intrahepatic cholangiocarcinoma 学习笔记](https://www.nature.com/articles/s41591-026-0123-0)**，*yx, 2026-06-22*
+
+天书
 
