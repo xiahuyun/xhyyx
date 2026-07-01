@@ -1,6 +1,6 @@
 +++
 title = '凤凰项目·一个IT运维的传奇故事读书笔记'
-date = 2026-07-01+09:28:00
+date = 2025-07-01T14:45:38+08:00
 categories = ["read"]
 tags = ["read"]
 author = 'xhy'
