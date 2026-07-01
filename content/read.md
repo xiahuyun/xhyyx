@@ -22,7 +22,7 @@ summary: read
 
 **[凤凰项目·一个IT运维的传奇故事](https://book.douban.com/subject/26644070/)** ，*xhy, 2026-07-01*
 
-可以说是 IT 必读书目之一了，内容很厚，作者大佬们用IT运维的故事来写小说，读起来很有意思，跌宕起伏。结合自己工作经历写了一个简短的笔记。({{< ref "posts/phoenix-project-notes.md" >}})
+可以说是 IT 必读书目之一了，内容很厚，作者大佬们用IT运维的故事来写小说，读起来很有意思，跌宕起伏。结合自己工作经历写了一个简短的[笔记]({{< ref "posts/phoenix-project-notes.md" >}})。
 
 ## 文章
 
