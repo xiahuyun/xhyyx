@@ -216,7 +216,7 @@ controller-runtime 解决的是资源调谐的问题。我们继续看它是如�
 
 ![DelayingQueue](/images/delaying-queue.png)
 
-[controller-runtime 框架如何保证并发性的](https://juejin.cn/post/7344259131714568227) 这篇文章介绍的很好，看的很舒服，笔者不想重复造轮子，有需要进一步了接的可以看看。
+[controller-runtime 框架如何保证并发性](https://juejin.cn/post/7344259131714568227) 这篇文章介绍的很好，看的很舒服，笔者不想重复造轮子，有需要进一步了接的可以看看。
 
 注意这里解决的问题是同名资源的顺序性问题，不同资源由于并发导致调谐顺序不一致也没有影响。
 
@@ -334,7 +334,7 @@ func (r *GuestbookReconciler) SetupWithManager(mgr ctrl.Manager) error {
 - 了解 client-go 的监控指标，根据监控指标判断性能问题；
 - 根据 pprof 排查 业务 CPU/内存，协程泄漏等问题；
 
-总之，核心是要写出优雅，靠谱的业务代码。
+总之，核心是要写出优雅，靠谱的业务代码。相关资料可参考 [Performance Tuning for controller-runtime: Concurrency, Client QPS, and Cache](https://www.golinuxcloud.com/controller-runtime-performance-tuning/)，写的很好，这里就不赘述了。
 
 ![performance](/images/performance.png)
 
@@ -344,7 +344,7 @@ func (r *GuestbookReconciler) SetupWithManager(mgr ctrl.Manager) error {
 
 # 参考资料
 
-- [controller-runtime 框架如何保证并发性的](https://juejin.cn/post/7344259131714568227)
+- [controller-runtime 框架如何保证并发性](https://juejin.cn/post/7344259131714568227)
 -  [kubebuilder book](https://book.kubebuilder.io/architecture.html)
 - [Go官方time/rate限流器的使用详解与实战](https://www.trae.cn/article/660504066)
 - [Performance Tuning for controller-runtime: Concurrency, Client QPS, and Cache](https://www.golinuxcloud.com/controller-runtime-performance-tuning/)
